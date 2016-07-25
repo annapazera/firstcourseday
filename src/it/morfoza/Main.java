@@ -10,7 +10,7 @@ public class Main {
         Scanner input=new Scanner (System.in);
         name=input.nextLine();
         System.out.println("Your name is " + name + " !!!!!!!!!!!");
-        System.out.println("Your result is " + result );
+        System.out.println(name + ", your result is " + result );
         System.out.println("Goodbye");
 
 
