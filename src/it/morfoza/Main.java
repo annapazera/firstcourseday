@@ -7,7 +7,7 @@ public class Main {
         int result= 2+2;
         System.out.println("Hello Anna");
         System.out.println("Have a nice course !!!!!!!!!!!");
-
+        System.out.println("Twój wynik to " + result );
         System.out.println("Goodbye");
 
 
