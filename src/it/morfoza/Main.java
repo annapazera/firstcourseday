@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args){
 
 //        int result= 2+2;
-        System.out.println("Hello, Jakie działanie chcesz wykonać?");
+        System.out.println("Hello, Jakie działanie chcesz wykonać: +,-, *,/?");
 
         Scanner input=new Scanner (System.in);
        String dzialanie=input.nextLine();
@@ -24,16 +24,16 @@ public class Main {
         int wynik3=liczba1/liczba2;
 
         switch (dzialanie){
-            case "dodawanie":
+            case "+":
                 System.out.println("Wynik dodawania  Twoich liczb to " + wynik + " !!!!!!!!!!!");
                 break;
-            case "odjmowanie":
+            case "-":
                 System.out.println("Wynik odjmowania Twoich liczb to " + wynik1 + " !!!!!!!!!!!");
                 break;
-            case "mnożenie":
+            case "*":
                 System.out.println("Wynik mnożenia Twoich liczb to " + wynik2 + " !!!!!!!!!!!");
                 break;
-            case "dzielenie":
+            case "/":
                 System.out.println("Wynik dzielenia Twoich liczb to " + wynik3 + " !!!!!!!!!!!");
                 break;
             default:
