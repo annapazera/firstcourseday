@@ -20,7 +20,10 @@ public class CalculatorWeb {
                 {
                     String number1= request.queryParams("number1");
                     String number2= request.queryParams("number2");
-                    return "<html>Hi, <b>Your numbers: " + number1 + ", " + number2 + "!"+"</html>";
+                    int number1a=Integer.parseInt(number1);
+                    int number2a=Integer.parseInt(number2);
+                    int result=number1a+number2a;
+                    return "<html>Hi, <b>Your numbers: " + number1 + ", " + number2 + "!"+ "result is" + result+"</html>";
                          }
         );
 
