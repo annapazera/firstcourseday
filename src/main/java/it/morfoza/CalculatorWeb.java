@@ -10,7 +10,12 @@ import java.util.function.BiFunction;
 public class CalculatorWeb {
 
     public static void main(String[] args) {
+        String port= System.getenv("PORT");
+        if (port !=null) {
+            int portInt = Integer.parseInt(port);
 
+            Spark.port(portInt);
+        }
         Spark.get("/calculator", (req, resp)-> {return "<html>Hi <b>Buddy!</b> </html>";}
         );
 
