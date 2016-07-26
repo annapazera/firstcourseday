@@ -23,7 +23,7 @@ public class CalculatorWeb {
                     int number1a=Integer.parseInt(number1);
                     int number2a=Integer.parseInt(number2);
                     int result=number1a+number2a;
-                    return "<html>Hi, <b>Your numbers: " + number1 + ", " + number2 + "!"+ "result is" + result+"</html>";
+                    return "<html>Hi, <b>Your numbers: " + number1 + ", " + number2 + "!"+ "Your result is " + result+"</html>";
                          }
         );
 
