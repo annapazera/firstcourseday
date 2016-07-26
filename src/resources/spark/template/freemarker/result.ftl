@@ -1,1 +1,1 @@
-<html>Hi, <b>Your numbers:  ${number1} , ${number2} and your result is ${result}</html>
+<html>Hi, Your numbers:  ${number1} , ${number2} and your result is ${result}</html>
