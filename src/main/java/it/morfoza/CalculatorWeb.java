@@ -16,7 +16,7 @@ public class CalculatorWeb {
 
             Spark.port(portInt);
         }
-        Spark.get("/calculator", (req, resp)-> {return "<html>Hi <b>Buddy!</b> </html>";}
+        Spark.get("/calculator", (req, resp)-> {return "<html>Hi <b>Congratulations to all!</b> </html>";}
         );
 
             Spark.get("/contact", (req, resp)-> {
