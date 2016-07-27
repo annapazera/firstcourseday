@@ -1,0 +1,1 @@
+<html>Hi,  Your personal details:  ${name} , ${surname} and  ${PESEL}</html>
