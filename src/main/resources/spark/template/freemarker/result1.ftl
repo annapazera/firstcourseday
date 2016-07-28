@@ -1,1 +1,1 @@
-<html>Hi,  Your personal details:  ${name} , ${surname} and  ${PESEL}</html>
+<html>Hi,  Your numbers:  ${number1} , ${number2} and your result is ${result}</html>
