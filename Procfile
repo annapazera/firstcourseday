@@ -1,1 +1,2 @@
-web: java -jar target/CalculatorAni.jar
+web: java -Dserver.port=$PORT -jar  target/CalculatorAni.jar
+

@@ -1,6 +1,6 @@
 package it.morfoza;
 import java.util.Scanner;
-public class Main {
+public class CalculatorConsole {
 
     public static void main(String[] args){
 
@@ -55,4 +55,7 @@ public class Main {
 
 
         }
+
+    public static void runOnConsole(String[] args) {
+    }
 }
