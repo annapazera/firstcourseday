@@ -13,7 +13,7 @@ import java.util.function.BiFunction;
  */
 public class CalculatorSpark {
 
-    public static void main(String[] args) {
+    public static void runOnSpark(String[] args) {
 
         Spark.staticFileLocation("/webfiles");
 

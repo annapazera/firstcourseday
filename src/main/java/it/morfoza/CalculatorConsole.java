@@ -2,7 +2,7 @@ package it.morfoza;
 import java.util.Scanner;
 public class CalculatorConsole {
 
-    public static void main(String[] args){
+    public static void runOnSpark2(String[] args){
 
 //        int result= 2+2;
         System.out.println("Hello, Jakie działanie chcesz wykonać: +,-, *,/?");

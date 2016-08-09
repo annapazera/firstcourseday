@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class KalkulatorNowy {
 
-    public static void main(String[] args) {
+    public static void runCalc(String[] args) {
         Spark.staticFileLocation("/webfiles");
 
         String port = System.getenv("PORT");
